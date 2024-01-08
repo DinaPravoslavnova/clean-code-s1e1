@@ -33,6 +33,10 @@
   margin: 0 auto 0;
 }
 
+.section-add {
+  margin: 16px 0;
+}
+
 .new-task-input,
 .task-input,
 .task-label {
@@ -43,6 +47,7 @@
 
 .task-row-wrapper {
   display: flex;
+  margin-top: 20px;
 }
 
 #incomplete-tasks,
@@ -79,8 +84,7 @@
 
 /* Heading */
 
-.section-title,
-.new-task-label {
+.section-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -110,11 +114,6 @@
 }
 
 /* New Task */
-
-.new-task-label {
-  display: block;
-  margin: 0 0 20px;
-}
 
 .new-task-input {
   width: 318px;
@@ -155,7 +154,7 @@
 
 /* Completed */
 
-.task-completed {
+#completed-tasks .task-label {
   text-decoration: line-through;
   color: #888;
 }
