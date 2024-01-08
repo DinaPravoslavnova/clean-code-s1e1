@@ -1,31 +1,38 @@
 /* Basic Style */
+
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header-image {
   width: 100%;
 }
+
 .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+  .header {
+    text-align: center;
+  }
 }
-}
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .new-task-input,
 .task-input,
 .task-label {
@@ -33,23 +40,28 @@
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
+
 #incomplete-tasks,
 #completed-tasks {
   margin:0;
   padding: 0px;
 }
+
 .task, .section-title {
   list-style:none;
 }
+
 .new-task-input,
 .task-checkbox,
 .task-input,
 .button {
   outline:none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -59,10 +71,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .section-title,
 .new-task-label {
   color: #333;
@@ -73,6 +88,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .new-task-input,
 .task-input {
   margin: 0;
@@ -86,26 +102,29 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .new-task-input:focus,
 .task-input:focus {
   color: #333;
 }
 
 /* New Task */
+
 .new-task-label {
   display: block;
   margin: 0 0 20px;
 }
+
 .new-task-input {
   width: 318px;
 }
 
 /* Task list */
+
 .task {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -115,6 +134,7 @@
 .task-checkbox {
   margin: 0 10px;
 }
+
 .task-label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -127,17 +147,20 @@
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button-image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .task-completed {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 .task-input {
   display:none
 }
