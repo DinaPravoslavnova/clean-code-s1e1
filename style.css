@@ -51,7 +51,8 @@
   padding: 0px;
 }
 
-.task, .section-title {
+.task,
+.section-title {
   list-style: none;
 }
 
